@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tic Tac Toe - AI (Alpha Beta)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-purple-200 min-h-screen flex flex-col items-center justify-center p-4">
+
+  <h1 class="text-4xl font-bold text-blue-800 mb-6 animate__animated animate__fadeInDown">Tic Tac Toe (AI Powered)</h1>
+
+  <div id="board" class="grid grid-cols-3 gap-4">
+    <!-- 9 cells will go here -->
+  </div>
+
+  <h2 id="status" class="text-2xl font-semibold mt-6 text-gray-800"></h2>
+
+  <button onclick="restartGame()" class="mt-6 px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
+    Restart Game
+  </button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
